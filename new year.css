@@ -8,7 +8,7 @@ body{
     font-family: "Merriweather", serif;
 }
 header{
-    border: 2px solid gray;
+    border: 2px solid rgb(255, 255, 255);
     width: 1320px;
     height: 600px;
     background-image: url(images/Banner\ Image.png);
@@ -214,6 +214,9 @@ text-align: center;
     font-size: 72px;
     font-weight: 900;
 }
+.holidaytitle h1 span{
+    color: red;
+}
 .holidaytitle p{
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
@@ -232,4 +235,92 @@ text-align: center;
 .giftbox{
     z-index: 1;
     position: relative;
+}
+.off{
+    display: flex;
+}
+.gifts{
+    width: 1320px;
+    height: 1163px;
+    margin: 100px auto;
+    
+}
+.giftimg{
+    margin-top: 100px;
+}
+.thebestgift h3{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+}
+.thebestgift h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.thebestgift p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;    
+
+}
+.contact{
+    width: 1320px;
+    height: 616px;
+    margin: 120px auto;
+    text-align: center;
+   border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.contact div{
+    padding: 80px;
+
+}
+.contact div h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.contact div p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;    
+}
+footer{
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 100px auto;
+}
+footer .head{
+    display: flex;
+    padding: 50px 200px;
+    color: white;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+hr{
+    margin: 0px 100px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.icons{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.icon{
+    padding-right: 10px;
+}
+.icons img{
+    padding-right: 20px;
+
 }
