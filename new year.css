@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: "Merriweather", serif;
+}
+header{
+    border: 2px solid gray;
+    width: 1320px;
+    height: 600px;
+    background-image: url(images/Banner\ Image.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+.bannertitle{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;  
+    margin-top: 160px; 
+}
+.bannerheading{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 1px;
+}
+.banner{
+    text-align: center;
+    
+}
+.discount{
+    width: 802.9px;
+    height: 806px;
+    margin: 80px auto;
+}
+.discounttitle{
+    text-align: center;
+}
+.discounttitle h1{
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discounttitle h4{
+    color: red;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.discounttitle h2{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* thrid */
+.invitaioncard{
+    width: 1320px;
+    height: 600px;
+    background-image: url(images/Vectorrr.png);
+    margin: 20px auto;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-top: 200px;
+
+}
+.invitaiontext h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    padding-left: 126px;
+    padding-top: 126px;
+    letter-spacing: 8px
+    
+}
+.invitaiontext .det{
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+    letter-spacing: 2px
+    
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 158px ;
+    padding-top: 30px;
+}
+.invitaionimg{
+    width: 319px;
+    height: 464px;
+    padding-top: 68px ;
+}
+.address{
+    width: 1320px;
+    height: 482px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0));
+    border-radius: 15px;
+
+     
+}
+.address .place{
+        padding-top: 100px;
+        padding-left: 386px;
+        padding-right: 386px;
+        text-align: center;
+}
+.address .place p{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+.address .place p span{
+    color: red;
+}
+.joinbtn{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 167px;
+    height: 56px;
+    background-color: red;
+    border-radius: 10px;
+    border-color: white;
+    
+}
+.redbtn{
+    text-align: center;
+    padding-top: 40px;
+
+}
+.comingsoon{
+  width: 1320px;  
+  height: 463px;
+  display: flex;
+  margin: 50px auto;
+}
+.text{
+    width: 45%;
+    padding-top: 104px;
+}
+.text h3{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.text h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+    height: 128px;
+
+}
+.fireworks{
+    width: 463px;
+    height: 463px;
+    border: 15px solid red;
+    border-radius: 50%;
+}
+.year {
+    padding-left: 100px;
+
+}
+.year .text h1{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.year .text p{
+    width: 276px;
+    height: 96px;
+}
+.holiday{
+    width: 1320px;
+    height: 986.07px;
+    margin: 120px auto;
+    position: relative;
+    
+}
+.holidaytitle{
+text-align: center;
+}
+.holidaytitle h3{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidaytitle h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidaytitle p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.solidcolor{
+    background-color: red;
+    width: 1320px;
+    height: 229px;    
+    position: absolute;
+    top: 77%;
+    border-radius: 15px;
+
+}
+.giftbox{
+    z-index: 1;
+    position: relative;
+}
